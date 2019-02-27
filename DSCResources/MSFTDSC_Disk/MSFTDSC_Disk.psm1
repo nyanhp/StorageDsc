@@ -467,7 +467,7 @@ function Set-TargetResource
                     -f $DiskIdType, $DiskId, $partition.PartitionNumber)
         } # if
 
-        $assignDriveLetter = $true
+        $assignDriveLetter           = $true
     }
     else
     {
