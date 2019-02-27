@@ -8,6 +8,9 @@
   [Issue #192](https://github.com/PowerShell/StorageDsc/issues/192).
 - Clean up module manifest to correct Author and Company - fixes
   [Issue #191](https://github.com/PowerShell/StorageDsc/issues/191).
+- Maximum size calculation now uses workaround so that
+  Test-TargetResource works properly - workaround for
+  [Issue #181](https://github.com/PowerShell/StorageDsc/issues/181).
 
 ## 4.5.0.0
 
